@@ -55,5 +55,26 @@ With further tuning and validation, this can be improved for production-level us
    ```bash
    pip install -r requirements.txt
 
+## Final Conclusion
+
+This project successfully builds a churn prediction pipeline using machine learning on telecom customer data.  
+The Random Forest model achieved:
+
+- **Accuracy:** 0.771
+- **ROC-AUC:** 0.851
+
+### Top Findings
+1. Customers with lower tenure are more likely to churn.
+2. Charges (monthly and total) are major churn drivers.
+3. Contract type has a strong relationship with churn risk.
+
+### Business Impact
+This model can help companies identify high-risk customers and launch proactive retention offers, reducing churn and improving customer lifetime value.
+
+### Next Steps
+- Perform hyperparameter tuning
+- Add cross-validation
+- Test additional models
+- Deploy the solution as a simple web app
 
 
