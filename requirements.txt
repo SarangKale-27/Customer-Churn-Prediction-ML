@@ -1,1 +1,9 @@
+### 2) `requirements.txt` (copy-paste)
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+openpyxl
+jupyter
 
